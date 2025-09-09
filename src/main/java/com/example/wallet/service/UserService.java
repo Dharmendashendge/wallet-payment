@@ -1,0 +1,1 @@
+package com.example.wallet.service; import com.example.wallet.dto.*; import com.example.wallet.entity.User; public interface UserService { User createUser(CreateUserRequest request); double addAmount(AddAmountRequest request); BalanceResponse getBalance(Long userId); Long transfer(TransferRequest request);}
